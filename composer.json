@@ -1,0 +1,14 @@
+{
+  "name":        "okeyaki/preport",
+  "description": "A simple PHP rule engine.",
+  "type":        "library",
+  "license":     "MIT",
+  "require": {
+    "php": "~5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Preport\\": "src"
+    }
+  }
+}
