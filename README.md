@@ -37,7 +37,7 @@ $reporter->report('no_input')
 $reports = $reporter->walk();
 
 foreach ($reports as $report) {
-    $report->subject();
+    echo $report->subject();
 }
 ```
 
